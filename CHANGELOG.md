@@ -11,6 +11,15 @@ All notable changes to this project will be documented in this file. See [conven
 - fix workflows - ([eb865f0](https://github.com/runope/rust_template/commit/eb865f05ca4008d955a4a828b288d9ad9a8479fd)) - runope - 2025-10-08 12:39
 - fix workflows - ([83bf193](https://github.com/runope/rust_template/commit/83bf19371f4d9125a41cd9f74c54f0b7e93ff3aa)) - runope - 2025-10-08 12:41
 - fix workflows - ([fe47970](https://github.com/runope/rust_template/commit/fe479702ea3bb5191cc81fc6151ab34bf3769a30)) - runope - 2025-10-08 12:49
+- fix workflows - ([faa7392](https://github.com/runope/rust_template/commit/faa73924a9edba9a9995232f2fe5a969bfad1746)) - runope - 2025-10-08 13:09
+
+### 💼 其他
+
+- Merge branch 'main' of https://github.com/runope/rust_template - ([2f0f841](https://github.com/runope/rust_template/commit/2f0f8412d3ccc1bfcf34650a1c573156e21d6d3c)) - runope - 2025-10-08 13:10
+
+### 📚 文档更新
+
+- update CHANGELOG [skip ci] - ([79aee13](https://github.com/runope/rust_template/commit/79aee13c026a6d8dcb41d0396a3c93f1ff11314b)) - runope - 2025-10-08 12:50
 
 ---
 ## [1.0.0] - 2025-10-08
