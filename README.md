@@ -97,7 +97,7 @@ github action 中这部分替换 是为了保证github action在当前template�
 
 ```toml
 postprocessors = [
-  { pattern = '\$REPO', replace = "https://github.com/fan-tastic-z/rust-project-template" }, # replace repository URL
+  { pattern = '\$REPO', replace = "https://github.com/runope/rust_template" }, # replace repository URL
 ]
 ```
 
