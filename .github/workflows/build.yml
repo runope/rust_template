@@ -72,7 +72,6 @@ jobs:
           args: --verbose
         env:
           OUTPUT: CHANGELOG.md
-
       - name: Print the changelog
         run: cat "${{ steps.git-cliff.outputs.changelog }}"
       - name: Commit CHANGELOG

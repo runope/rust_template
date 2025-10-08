@@ -7,7 +7,22 @@ All notable changes to this project will be documented in this file. See [conven
 
 ### 🐛 Bug 修复
 
+- fix workflows - ([9102a33](https://github.com/runope/rust_template/commit/9102a33eb94e2ad35b7c70ba152b3ef43f95eabe)) - runope - 2025-10-08 12:32
+- fix workflows - ([eb865f0](https://github.com/runope/rust_template/commit/eb865f05ca4008d955a4a828b288d9ad9a8479fd)) - runope - 2025-10-08 12:39
+- fix workflows - ([83bf193](https://github.com/runope/rust_template/commit/83bf19371f4d9125a41cd9f74c54f0b7e93ff3aa)) - runope - 2025-10-08 12:41
+- fix workflows - ([fe47970](https://github.com/runope/rust_template/commit/fe479702ea3bb5191cc81fc6151ab34bf3769a30)) - runope - 2025-10-08 12:49
+
+---
+## [1.0.0] - 2025-10-08
+
+### 🐛 Bug 修复
+
 - fix deny config - ([348720d](https://github.com/runope/rust_template/commit/348720df18214e2f1f244f17b4445fc4c9cfca96)) - runope - 2025-10-08 10:29
+- fix cliff config - ([739146b](https://github.com/runope/rust_template/commit/739146bce6600613cabe10ceb71f97840fb8b890)) - runope - 2025-10-08 11:14
+- fix cliff config - ([fddb789](https://github.com/runope/rust_template/commit/fddb789da367b34f97954595864f30e3b346e09f)) - runope - 2025-10-08 12:00
+- fix workflows - ([c5eaedb](https://github.com/runope/rust_template/commit/c5eaedb48cda821bbb41adcfb9016dbde199dc40)) - runope - 2025-10-08 12:05
+- fix workflows - ([29003ba](https://github.com/runope/rust_template/commit/29003ba0dd05877a1d2e39de807757ef59228d3d)) - runope - 2025-10-08 12:10
+- fix workflows - ([a8fa604](https://github.com/runope/rust_template/commit/a8fa604fef47178554e983b90d51473a7e3c0651)) - runope - 2025-10-08 12:13
 
 ### 💼 其他
 
