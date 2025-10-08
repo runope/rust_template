@@ -57,6 +57,10 @@ jobs:
         with:
           body: ${{ steps.git-cliff.outputs.content }}
 
+  changelog:
+    name: Generate changelog
+    runs-on: ubuntu-latest
+    steps:
       - name: Generate a changelog
         uses: orhun/git-cliff-action@v4
         id: git-cliff
