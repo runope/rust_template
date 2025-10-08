@@ -33,7 +33,7 @@ body = """
         {%- if commit.scope -%}
         {% else -%}
             - {% if commit.breaking %} [**breaking**]{% endif %}\
-                {{ commit.message|trim }} - ([{{ commit.id | truncate(length=7, end="") }}]($REPO/commit/{{ commit.id }})) - {{ commit.author.name }}
+                {{ commit.message|trim }} - ([{{ commit.id | truncate(length=7, end="") }}]($REPO/commit/{{ commit.id }})) - {{ commit.author.name }} - {{ commit.author.timestamp | date(format="%Y-%m-%d %H:%M") }}
         {% endif -%}
     {% endfor -%}
 {% endfor %}\n
@@ -61,21 +61,28 @@ commit_preprocessors = [
     # { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}](https://github.com/orhun/git-cliff/issues/${2}))"}, # replace issue numbers
 ]
 # regex for parsing and grouping commits
+# 提交信息的解析和分组规则
 commit_parsers = [
-    { message = "\\[skip", skip = true },
-    { message = "\\p{Han}", skip = true },
-    { message = "^feat", group = "Features" },
-    { message = "^fix", group = "Bug Fixes" },
-    { message = "^doc", group = "Documentation" },
-    { message = "^perf", group = "Performance" },
-    { message = "^refactor", group = "Refactoring" },
-    { message = "^style", group = "Style" },
-    { message = "^revert", group = "Revert" },
-    { message = "^test", group = "Tests" },
-    { message = "^chore\\(version\\):", skip = true },
-    { message = "^chore", group = "Miscellaneous Chores" },
-    { message = ".*", group = "Other" },
-    { body = ".*security", group = "Security" },
+    { message = "^feat", group = "🚀 新功能" },
+    { message = "^fix", group = "🐛 Bug 修复" },
+    { message = "^docs", group = "📚 文档更新" },
+    { message = "^style", group = "🎨 代码样式" },
+    { message = "^refactor", group = "🚜 代码重构" },
+    { message = "^perf", group = "⚡ 性能优化" },
+    { message = "^test", group = "🧪 测试相关" },
+    { message = "^build", group = "📦 构建系统" },
+    { message = "^ci", group = "🔧 CI 配置" },
+    { message = "^chore", group = "⚙️ 杂项任务" },
+    { message = "^revert", group = "◀️ 回滚变更" },
+    { message = "^security", group = "🛡️ 安全相关" },
+    { message = "^wip", group = "🚧 进行中" },
+    { message = "^deps", group = "📦 依赖更新" },
+    { message = "^init", group = "🎉 初始化" },
+    { message = "^config", group = "⚙️ 配置变更" },
+    { message = "^release", group = "🏷️ 版本发布" },
+    { message = "^hotfix", group = "🔥 紧急修复" },
+    { message = "^breaking", group = "💥 破坏性变更" },
+    { message = ".*", group = "💼 其他" },
 ]
 # protect breaking changes from being skipped due to matching a skipping commit_parser
 protect_breaking_commits = false
