@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file. See [conven
 - fix workflows - ([83bf193](https://github.com/runope/rust_template/commit/83bf19371f4d9125a41cd9f74c54f0b7e93ff3aa)) - runope - 2025-10-08 12:41
 - fix workflows - ([fe47970](https://github.com/runope/rust_template/commit/fe479702ea3bb5191cc81fc6151ab34bf3769a30)) - runope - 2025-10-08 12:49
 - fix workflows - ([faa7392](https://github.com/runope/rust_template/commit/faa73924a9edba9a9995232f2fe5a969bfad1746)) - runope - 2025-10-08 13:09
+- fix cargo-generate cliff.toml fight - ([49ab0ca](https://github.com/runope/rust_template/commit/49ab0ca6598644995c7aae85d2ea126510033b80)) - runope - 2025-10-11 17:06
 
 ### 💼 其他
 
@@ -20,6 +21,7 @@ All notable changes to this project will be documented in this file. See [conven
 ### 📚 文档更新
 
 - update CHANGELOG [skip ci] - ([79aee13](https://github.com/runope/rust_template/commit/79aee13c026a6d8dcb41d0396a3c93f1ff11314b)) - runope - 2025-10-08 12:50
+- update CHANGELOG [skip ci] - ([5c06486](https://github.com/runope/rust_template/commit/5c064863765184aceef6d6cc5c55c4f3e94df58a)) - runope - 2025-10-08 13:19
 
 ---
 ## [1.0.0] - 2025-10-08
