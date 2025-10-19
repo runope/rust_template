@@ -24,13 +24,13 @@ repos:
         language: rust
         files: \.rs$
         args: []
-      - id: git-cliff
-        name: git cliff
-        description: Generate a changelog with git cliff.
-        entry: bash -c 'git cliff --config cliff.toml --output CHANGELOG.md'
-        language: rust
-        files: \.(rs|toml|yml|yaml)$
-        args: []
+      # - id: git-cliff
+      #   name: git cliff
+      #   description: Generate a changelog with git cliff.
+      #   entry: bash -c 'git cliff --config cliff.toml --output CHANGELOG.md'
+      #   language: rust
+      #   files: \.(rs|toml|yml|yaml)$
+      #   args: []
       - id: cargo-fmt-check
         name: cargo fmt check
         description: Check format files with rustfmt.
