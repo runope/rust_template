@@ -29,8 +29,8 @@ repos:
         description: Generate a changelog with git cliff.
         entry: bash -c 'git cliff --config cliff.toml --output CHANGELOG.md'
         language: rust
-        files: \.rs$
-        args: []      
+        files: \.(rs|toml|yml|yaml)$
+        args: []
       - id: cargo-fmt-check
         name: cargo fmt check
         description: Check format files with rustfmt.

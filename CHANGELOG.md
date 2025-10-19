@@ -22,6 +22,11 @@ All notable changes to this project will be documented in this file. See [conven
 
 - update CHANGELOG [skip ci] - ([79aee13](https://github.com/runope/rust_template/commit/79aee13c026a6d8dcb41d0396a3c93f1ff11314b)) - runope - 2025-10-08 12:50
 - update CHANGELOG [skip ci] - ([5c06486](https://github.com/runope/rust_template/commit/5c064863765184aceef6d6cc5c55c4f3e94df58a)) - runope - 2025-10-08 13:19
+- update CHANGELOG [skip ci] - ([1dc0622](https://github.com/runope/rust_template/commit/1dc0622f436b98abc7c96a43453580a55af9ddf4)) - runope - 2025-10-11 17:06
+
+### 🔧 CI 配置
+
+- auto fmt and cliff with pre-commit hook - ([106d28d](https://github.com/runope/rust_template/commit/106d28dd7a412385e0195eecee8ac6e4c5c3b497)) - runope - 2025-10-19 09:29
 
 ---
 ## [1.0.0] - 2025-10-08
